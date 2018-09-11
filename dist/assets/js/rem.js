@@ -4,9 +4,9 @@
         recalc = function () {
             var clientWidth = docEl.clientWidth;
             if (!clientWidth) return;
-            if(clientWidth>=750){
+            if (clientWidth >= 750) {
                 docEl.style.fontSize = '100px';
-            }else{
+            } else {
                 docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
             }
         };
@@ -14,3 +14,5 @@
     win.addEventListener(resizeEvt, recalc, false);
     doc.addEventListener('DOMContentLoaded', recalc, false);
 })(document, window);
+alert("heyushuo")
+import '../css/common.css'

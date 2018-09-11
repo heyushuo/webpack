@@ -1,2 +1,7 @@
 import './index.scss'
-import '@/assets/js/rem.js'
+
+if (process.env.NODE_ENV === "development") {
+
+    require('./index.html')
+
+}
