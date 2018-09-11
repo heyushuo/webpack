@@ -4,6 +4,8 @@ import "./index.scss";
 document.getElementById('tab-wrap').innerHTML = 'process.env.NODE_ENV'
 $('#tab-wrap').click(function () {
     alert('hhhh')
+    window.location.href = "../page1.html"
+
 })
 var aaa = {
     "name": "1212"
